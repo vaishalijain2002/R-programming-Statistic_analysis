@@ -6,7 +6,7 @@ Welcome to my R Assignments Repository! This repository contains a collection of
 ## Overview
 This ImageJ macro script, courtesy of Vaishali Jain and Ralph Loring, is designed to process multi-channel TIFF images, specifically CH1, CH2, and CH3 channels. 
 
-1.This script enables the user to set the scale of the images in pixels and measure the area, mean, standard deviation, etc.
+  1.This script enables the user to set the scale of the images in pixels and measure the area, mean, standard deviation, etc.
 
 2. Input the ROIs manually for background and cell areas.
 
