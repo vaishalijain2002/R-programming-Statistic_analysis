@@ -55,4 +55,4 @@ Follow these steps to use the script:
 ## Conclusion
 
 The Channel 4 Analysis Script significantly improves the efficiency and reproducibility of image-based data analysis. By automating the process of quantifying and measuring specific regions in multi-channel images, the script helps researchers save time, reduce human error, and streamline their analysis workflows. Whether you're working with cell-based experiments, fluorescent markers, or multi-channel imaging, this tool can help extract meaningful data with accuracy and precision. This script is particularly valuable in large-scale studies that require consistent and standardized results, facilitating the downstream statistical analysis and reporting of image data.
-![image](https://github.com/user-attachments/assets/5dd6a5f3-535a-42eb-a402-44826ae1a31d)
+
