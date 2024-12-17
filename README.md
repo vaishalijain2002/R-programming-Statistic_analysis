@@ -9,6 +9,7 @@ Welcome to my R Assignments Repository! This repository contains a collection of
 
 This ImageJ macro script, courtesy of Vaishali Jain and Ralph Loring, is designed to process multi-channel TIFF images from a Keyence microscope, specifically CH1, CH2, and CH3 channels where CH4 is a brightfield image and all the other fluorescent images are .tif stacks in the same folder as CH4. The object is to have the user select rectangular regions of interest (ROIs) from regions without cells vs regions with cells. This should be done without the operator seeing the fluorescent channels so there is no bias. The instructions are for the operator to select 5 ROIs with no cells followed by 5 ROIs with confluent cells. However, the program works with an arbitrary number of ROIs. Usually, this analysis is done on images at 4x in the Keyence. 
 
+
 1.This script enables the user to set the scale of the images in pixels and measure the area in pixels, mean gray value, standard deviation, and min and max gray values for each ROI.
 2. Input the ROIs manually for background and cell areas. 
 3. For each channel (Red, Green, and Blue), open the corresponding TIFF files, unstack them into single color channels, and measure the values for that ROI . 
@@ -24,7 +25,11 @@ This script automates multi-channel imaging data analysis, which is an important
 channels, for example, fluorescent markers. This script automatizes ROI selection, measurement, and saving of the results, hence increasing efficiency, reducing human error, and saving time. Besides this, the output will come out in the standard format, easily exportable to Excel for further statistical analysis and reporting, it also stands to be very important in big imaging studies that demand coherence and accuracy in data collection.
 
 ## File Structure 
-- `Channel 4 Analysis Script.ijm`: The ImageJ macro script file. ## Requirements - ImageJ (or FIJI) installed. - TIFF files for the red (CH1), green (CH2), blue (CH3), bright field (CH4), and Overlay channels all within the same folder.
+- `Channel 4 Analysis Script.ijm`: The ImageJ macro script file.
+
+## Requirements 
+- ImageJ (or FIJI) installed.
+- TIFF files for the red (CH1), green (CH2), blue (CH3), bright field (CH4), and Overlay channels all within the same folder.
 
 ## Instructions Follow these steps to use the script:
 1. **Open the Channel 4 (CH4) image in ImageJ** by moving the CH4 file to the ImageJ bar, then click "OK" to start the process.
